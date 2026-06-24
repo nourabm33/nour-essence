@@ -1,0 +1,962 @@
+[
+  {
+    "id": "LUX001",
+    "name": "Anti-Wrinkle Eye Contour - Shock Action",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "price": "€99.90",
+    "image": "peptilux/LUX001",
+    "has_variants": false
+  },
+  {
+    "id": "LUX002",
+    "name": "Anti-Wrinkle Day Cream - Time Freeze Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "price": "€83.00",
+    "image": "peptilux/LUX002",
+    "has_variants": false
+  },
+  {
+    "id": "LUX003",
+    "name": "Anti-Wrinkle Night Cream - Collagen Pro",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "price": "€83.00",
+    "image": "peptilux/LUX003",
+    "has_variants": false
+  },
+  {
+    "id": "LUX004",
+    "name": "Anti-Wrinkle Day Serum - Lifting Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "price": "€139.00",
+    "image": "peptilux/LUX004",
+    "has_variants": false
+  },
+  {
+    "id": "LUX005",
+    "name": "Anti-Wrinkle Night Serum - Filler Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "price": "€99.00",
+    "image": "peptilux/LUX005",
+    "has_variants": false
+  },
+  {
+    "id": "LUX006",
+    "name": "Anti-Wrinkle Eye Contour - Young Look Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "price": "€59.00",
+    "image": "peptilux/LUX006",
+    "has_variants": false
+  },
+  {
+    "id": "LUX008",
+    "name": "Night Face Cream - Anti-Aging 3D Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux Men",
+    "price": "€83.00",
+    "image": "peptilux/LUX008",
+    "has_variants": false
+  },
+  {
+    "id": "LUX009",
+    "name": "Anti-Wrinkle Night Serum - Filler Effect (Men)",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux Men",
+    "price": "€99.00",
+    "image": "peptilux/LUX009",
+    "has_variants": false
+  },
+  {
+    "id": "U01B",
+    "name": "Sweet Almond Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€15.90",
+    "image": "oils/U01B",
+    "has_variants": false
+  },
+  {
+    "id": "U02B",
+    "name": "Rosehip Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€49.90",
+    "image": "oils/U02B",
+    "has_variants": false
+  },
+  {
+    "id": "U03B",
+    "name": "Macadamia Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€16.90",
+    "image": "oils/U03B",
+    "has_variants": false
+  },
+  {
+    "id": "U04",
+    "name": "Neem Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€15.00",
+    "image": "oils/U04",
+    "has_variants": false
+  },
+  {
+    "id": "U05B",
+    "name": "Jojoba Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€33.50",
+    "image": "oils/U05B",
+    "has_variants": false
+  },
+  {
+    "id": "U06B",
+    "name": "Argan Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€54.90",
+    "image": "oils/U06B",
+    "has_variants": false
+  },
+  {
+    "id": "U07B",
+    "name": "Sweet Almond Oil (1L)",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€45.90",
+    "image": "oils/U07B",
+    "has_variants": false
+  },
+  {
+    "id": "U10B",
+    "name": "Avocado Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€18.90",
+    "image": "oils/U10B",
+    "has_variants": false
+  },
+  {
+    "id": "U11B",
+    "name": "Grape Seed Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€22.90",
+    "image": "oils/U11B",
+    "has_variants": false
+  },
+  {
+    "id": "U12",
+    "name": "Refined Cotton Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€20.50",
+    "image": "oils/U12",
+    "has_variants": false
+  },
+  {
+    "id": "U14B",
+    "name": "Coconut Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€19.90",
+    "image": "oils/U14B",
+    "has_variants": false
+  },
+  {
+    "id": "U15B",
+    "name": "Shea Butter",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€14.90",
+    "image": "oils/U15B",
+    "has_variants": false
+  },
+  {
+    "id": "U17",
+    "name": "Baobab Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "price": "€38.00",
+    "image": "oils/U17",
+    "has_variants": false
+  },
+  {
+    "id": "OB",
+    "name": "Wellness Oil (34 Plant Blend)",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€30.00",
+    "image": "oils/OB",
+    "has_variants": false
+  },
+  {
+    "id": "OS02",
+    "name": "Star Anise Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€13.00",
+    "image": "oils/OS02",
+    "has_variants": false
+  },
+  {
+    "id": "OS04",
+    "name": "Basil Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€20.00",
+    "image": "oils/OS04",
+    "has_variants": false
+  },
+  {
+    "id": "OS07",
+    "name": "Cinnamon Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€26.00",
+    "image": "oils/OS07",
+    "has_variants": false
+  },
+  {
+    "id": "OS11",
+    "name": "Geranium Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€20.00",
+    "image": "oils/OS11",
+    "has_variants": false
+  },
+  {
+    "id": "OS12",
+    "name": "Bay Laurel Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€20.00",
+    "image": "oils/OS12",
+    "has_variants": false
+  },
+  {
+    "id": "OS16",
+    "name": "Marjoram Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€20.00",
+    "image": "oils/OS16",
+    "has_variants": false
+  },
+  {
+    "id": "OS20",
+    "name": "Nutmeg Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€17.00",
+    "image": "oils/OS20",
+    "has_variants": false
+  },
+  {
+    "id": "OS21",
+    "name": "Oregano Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€17.00",
+    "image": "oils/OS21",
+    "has_variants": false
+  },
+  {
+    "id": "OS25",
+    "name": "Clary Sage Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€22.00",
+    "image": "oils/OS25",
+    "has_variants": false
+  },
+  {
+    "id": "OS28",
+    "name": "Ylang Ylang Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€21.00",
+    "image": "oils/OS28",
+    "has_variants": false
+  },
+  {
+    "id": "OS29",
+    "name": "Birch Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€20.00",
+    "image": "oils/OS29",
+    "has_variants": false
+  },
+  {
+    "id": "OS32",
+    "name": "Clove Leaf Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€18.00",
+    "image": "oils/OS32",
+    "has_variants": false
+  },
+  {
+    "id": "OS34",
+    "name": "Cumin Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€23.00",
+    "image": "oils/OS34",
+    "has_variants": false
+  },
+  {
+    "id": "OS35",
+    "name": "Tarragon Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "price": "€20.00",
+    "image": "oils/OS35",
+    "has_variants": false
+  },
+  {
+    "id": "LM09",
+    "name": "Hydra Foundation",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€29.00",
+    "image": "makeup/LM09",
+    "has_variants": true
+  },
+  {
+    "id": "LM11-LM14",
+    "name": "Instant Matte Foundation",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€33.00",
+    "image": "makeup/LM11-LM14",
+    "has_variants": true
+  },
+  {
+    "id": "LM15-LM19",
+    "name": "Perfect Hydra Foundation",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€39.00",
+    "image": "makeup/LM15-LM19",
+    "has_variants": true
+  },
+  {
+    "id": "COR01-COR03",
+    "name": "Jumbo Concealer",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€9.90",
+    "image": "makeup/COR01-COR03",
+    "has_variants": true
+  },
+  {
+    "id": "COR04-COR05",
+    "name": "Liquid Concealer",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€19.90",
+    "image": "makeup/COR04-COR05",
+    "has_variants": true
+  },
+  {
+    "id": "COR06-COR10",
+    "name": "High Coverage Concealer",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€19.90",
+    "image": "makeup/COR06-COR10",
+    "has_variants": true
+  },
+  {
+    "id": "FRD04",
+    "name": "Compact Blush",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/FRD04",
+    "has_variants": true
+  },
+  {
+    "id": "FRD07-FRD09",
+    "name": "Silk Face Blush",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€24.90",
+    "image": "makeup/FRD07-FRD09",
+    "has_variants": true
+  },
+  {
+    "id": "FRD10-FRD12",
+    "name": "Warm Shade Blush",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€24.90",
+    "image": "makeup/FRD10-FRD12",
+    "has_variants": true
+  },
+  {
+    "id": "TER07-TER11",
+    "name": "Silk Face Bronzing Powder",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€25.00",
+    "image": "makeup/TER07-TER11",
+    "has_variants": true
+  },
+  {
+    "id": "TER12-TER15",
+    "name": "Warm Shade Bronzing Powder",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€24.90",
+    "image": "makeup/TER12-TER15",
+    "has_variants": true
+  },
+  {
+    "id": "CPR09",
+    "name": "Silk Face Compact Powder",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€24.90",
+    "image": "makeup/CPR09",
+    "has_variants": true
+  },
+  {
+    "id": "CPR13-CPR16",
+    "name": "Warm Shade Compact Powder",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€24.90",
+    "image": "makeup/CPR13-CPR16",
+    "has_variants": true
+  },
+  {
+    "id": "MKILL06",
+    "name": "Illuminating Powder - Warm Shade",
+    "category": "Makeup",
+    "subcategory": "Face",
+    "brand": "Chogan",
+    "price": "€24.90",
+    "image": "makeup/MKILL06",
+    "has_variants": false
+  },
+  {
+    "id": "MKOM04",
+    "name": "Compact Eyeshadow - Bright",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/MKOM04",
+    "has_variants": true
+  },
+  {
+    "id": "MKOM16-MKOM35",
+    "name": "Compact Eyeshadow - Matte",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/MKOM-matte",
+    "has_variants": true
+  },
+  {
+    "id": "MKOM10-MKOM15",
+    "name": "Compact Eyeshadow - Shimmer",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/MKOM-shimmer",
+    "has_variants": true
+  },
+  {
+    "id": "MKOM36-MKOM38",
+    "name": "Eyeshadow Diamond Cream",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€19.90",
+    "image": "makeup/MKOM36-38",
+    "has_variants": true
+  },
+  {
+    "id": "MKPL01-MKPL04",
+    "name": "9-Color Eyeshadow Palette",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€39.99",
+    "image": "makeup/MKPL01-04",
+    "has_variants": true
+  },
+  {
+    "id": "KJL01",
+    "name": "Kajal Twist Eye Pencil",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€9.90",
+    "image": "makeup/KJL01",
+    "has_variants": false
+  },
+  {
+    "id": "MKMS03",
+    "name": "Waterproof Curling Mascara",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€22.90",
+    "image": "makeup/MKMS03",
+    "has_variants": false
+  },
+  {
+    "id": "MKMS04",
+    "name": "Lengthening & High Definition Mascara",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€18.90",
+    "image": "makeup/MKMS04",
+    "has_variants": false
+  },
+  {
+    "id": "MKMS05",
+    "name": "Extra Volume Mascara",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€22.90",
+    "image": "makeup/MKMS05",
+    "has_variants": false
+  },
+  {
+    "id": "ELS01-ELS05",
+    "name": "Magnetic Lashes",
+    "category": "Makeup",
+    "subcategory": "Eyes",
+    "brand": "Chogan",
+    "price": "€10.00",
+    "image": "makeup/ELS01-05",
+    "has_variants": true
+  },
+  {
+    "id": "MKLIP11-MKLIP20",
+    "name": "Jumbo Lipstick",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€22.00",
+    "image": "makeup/MKLIP-jumbo",
+    "has_variants": true
+  },
+  {
+    "id": "MKLIP22-MKLIP25",
+    "name": "Matte Intense Lipstick",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/MKLIP-matte-intense",
+    "has_variants": true
+  },
+  {
+    "id": "MKLIP61",
+    "name": "Natural Moisturizing Lip Balm",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€17.99",
+    "image": "makeup/MKLIP61",
+    "has_variants": false
+  },
+  {
+    "id": "MKRS04-MKRS06",
+    "name": "Matte Lipstick",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€14.90",
+    "image": "makeup/MKRS-matte",
+    "has_variants": true
+  },
+  {
+    "id": "MKRS07-MKRS14",
+    "name": "Glossy Lipstick",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€14.90",
+    "image": "makeup/MKRS-glossy",
+    "has_variants": true
+  },
+  {
+    "id": "MKLIP36-MKLIP40",
+    "name": "Long-Lasting Matte Liquid Lipstick",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/MKLIP-liquid-matte",
+    "has_variants": true
+  },
+  {
+    "id": "MKLIP42-MKLIP45",
+    "name": "Plumping Lip Gloss",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€21.99",
+    "image": "makeup/MKLIP-plumping",
+    "has_variants": true
+  },
+  {
+    "id": "MKLIP60",
+    "name": "Spicy Gloss Extra Volume",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€19.90",
+    "image": "makeup/MKLIP60",
+    "has_variants": false
+  },
+  {
+    "id": "MKLIP46-MKLIP59",
+    "name": "Lip Cream Matte",
+    "category": "Makeup",
+    "subcategory": "Lips",
+    "brand": "Chogan",
+    "price": "€19.00",
+    "image": "makeup/MKLIP-cream-matte",
+    "has_variants": true
+  },
+  {
+    "id": "SM01-SM30",
+    "name": "Gel-Effect Nail Polish",
+    "category": "Makeup",
+    "subcategory": "Nails",
+    "brand": "Chogan",
+    "price": "€8.90",
+    "image": "makeup/SM-nail-polish",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-HER",
+    "name": "Millésime Perfume - For Her",
+    "category": "Perfumes",
+    "subcategory": "For Her",
+    "brand": "Olfazeta",
+    "price": "€15.50–€52.00",
+    "image": "perfumes/for-her",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-HIM",
+    "name": "Millésime Perfume - For Him",
+    "category": "Perfumes",
+    "subcategory": "For Him",
+    "brand": "Olfazeta",
+    "price": "€15.50–€52.00",
+    "image": "perfumes/for-him",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-UNI",
+    "name": "Millésime Perfume - Unisex",
+    "category": "Perfumes",
+    "subcategory": "Unisex",
+    "brand": "Olfazeta",
+    "price": "€15.50–€52.00",
+    "image": "perfumes/unisex",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-LUX",
+    "name": "Luxury Perfume Collection",
+    "category": "Perfumes",
+    "subcategory": "Luxury",
+    "brand": "Olfazeta",
+    "price": "€52.00–€65.00",
+    "image": "perfumes/luxury",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-KIDS",
+    "name": "Children's Eau de Parfum",
+    "category": "Perfumes",
+    "subcategory": "Special",
+    "brand": "Olfazeta",
+    "price": "€29.00",
+    "image": "perfumes/kids",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-LOVE",
+    "name": "Scented Love - Extrait de Parfum",
+    "category": "Perfumes",
+    "subcategory": "Special",
+    "brand": "Olfazeta",
+    "price": "€19.90–€24.90",
+    "image": "perfumes/love",
+    "has_variants": true
+  },
+  {
+    "id": "OLFAZETA-EVENT",
+    "name": "Event & Limited Edition Perfumes",
+    "category": "Perfumes",
+    "subcategory": "Special",
+    "brand": "Olfazeta",
+    "price": "€60.00",
+    "image": "perfumes/events",
+    "has_variants": true
+  },
+  {
+    "id": "BS08",
+    "name": "Body Wash - Citrus & Patchouli",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/BS08",
+    "has_variants": false
+  },
+  {
+    "id": "BS09",
+    "name": "Body Wash - Vanilla & Ginger",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/BS09",
+    "has_variants": false
+  },
+  {
+    "id": "BS10",
+    "name": "Body Wash - Amber & Coriander",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/BS10",
+    "has_variants": false
+  },
+  {
+    "id": "BS11",
+    "name": "Body Wash - Myrrh",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/BS11",
+    "has_variants": false
+  },
+  {
+    "id": "BS12",
+    "name": "Body Wash - Coffee & Pink Pepper",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/BS12",
+    "has_variants": false
+  },
+  {
+    "id": "BS13",
+    "name": "Body Wash - Amber & Argan",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/BS13",
+    "has_variants": false
+  },
+  {
+    "id": "AL02B",
+    "name": "Moisturising Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "price": "€12.90",
+    "image": "bodycare/AL02B",
+    "has_variants": false
+  },
+  {
+    "id": "AV01B",
+    "name": "Ice Effect Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "price": "€17.90",
+    "image": "bodycare/AV01B",
+    "has_variants": false
+  },
+  {
+    "id": "BV01B",
+    "name": "Regenerating Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "price": "€13.90",
+    "image": "bodycare/BV01B",
+    "has_variants": false
+  },
+  {
+    "id": "LA01B",
+    "name": "Donkey Milk Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "price": "€19.90",
+    "image": "bodycare/LA01B",
+    "has_variants": false
+  },
+  {
+    "id": "NM02B",
+    "name": "Neem Oil Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "price": null,
+    "image": "bodycare/NM02B",
+    "has_variants": false
+  },
+  {
+    "id": "BB01B",
+    "name": "Baby Bubble Bath",
+    "category": "Body & Personal Care",
+    "subcategory": "Baby Care",
+    "brand": "Aurodhea",
+    "price": null,
+    "image": "bodycare/BB01B",
+    "has_variants": false
+  },
+  {
+    "id": "COP0001-COP0005",
+    "name": "Flower Garden Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "price": "€24.00–€350.00",
+    "image": "home/flower-garden",
+    "has_variants": false
+  },
+  {
+    "id": "COP0006-COP0010",
+    "name": "Fruity Blend Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "price": "€24.00–€350.00",
+    "image": "home/fruity-blend",
+    "has_variants": false
+  },
+  {
+    "id": "COP0011-COP0015",
+    "name": "Mediterranean Pomegranate Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "price": "€24.00–€350.00",
+    "image": "home/mediterranean-pomegranate",
+    "has_variants": false
+  },
+  {
+    "id": "COP0016-COP0020",
+    "name": "Bacchus Symphonies Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "price": "€24.00–€350.00",
+    "image": "home/bacchus-symphonies",
+    "has_variants": false
+  },
+  {
+    "id": "COP0021-COP0025",
+    "name": "Red Fruit Heart Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "price": "€24.00–€350.00",
+    "image": "home/red-fruit-heart",
+    "has_variants": false
+  },
+  {
+    "id": "COP0026-COP0030",
+    "name": "Magnolia Bouquet Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "price": "€24.00–€350.00",
+    "image": "home/magnolia-bouquet",
+    "has_variants": false
+  },
+  {
+    "id": "COPAC001-COPAC005",
+    "name": "Replacement Reed Sticks",
+    "category": "Home Fragrances",
+    "subcategory": "Accessories",
+    "brand": "Cooperativa Profumieri",
+    "price": "€2.50–€15.00",
+    "image": "home/accessories",
+    "has_variants": false
+  }
+]

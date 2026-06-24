@@ -1,0 +1,154 @@
+[
+  {
+    "id": "LUX001",
+    "name": "Anti-Wrinkle Eye Contour - Shock Action",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "description": "Eye cream with immediate tensor effect lasting 6-10 hours. Peptide complex LIPHASYN™ fills wrinkles like a natural filler.",
+    "benefits": [
+      "Immediate tensor effect",
+      "Fills wrinkles",
+      "Botox-like relaxation",
+      "Anti-dehydration",
+      "Eliminates tired eye effect"
+    ],
+    "price": "€99.90",
+    "volume": "20 ml",
+    "image": "peptilux/LUX001",
+    "target": "Women"
+  },
+  {
+    "id": "LUX002",
+    "name": "Anti-Wrinkle Day Cream - Time Freeze Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "description": "Light fluid day cream with botox-like action. Deep wrinkle smoothing visible after 4 weeks. ALPHADERM™ peptide complex.",
+    "benefits": [
+      "Botox-like anti-wrinkle",
+      "Brightening",
+      "Revitalizing",
+      "Antioxidant",
+      "Sebum regulating"
+    ],
+    "price": "€83.00",
+    "volume": "50 ml",
+    "image": "peptilux/LUX002",
+    "target": "Women"
+  },
+  {
+    "id": "LUX003",
+    "name": "Anti-Wrinkle Night Cream - Collagen Pro",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "description": "Night cream accelerating collagen synthesis. Dual action: boosts production and protects from degradation. SINCPRO™ complex.",
+    "benefits": [
+      "Collagen synthesis boost",
+      "Wrinkle reduction",
+      "Photodamage repair",
+      "Pore refinement",
+      "Firmness improvement"
+    ],
+    "price": "€83.00",
+    "volume": "50 ml",
+    "image": "peptilux/LUX003",
+    "target": "Women"
+  },
+  {
+    "id": "LUX004",
+    "name": "Anti-Wrinkle Day Serum - Lifting Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "description": "Day serum with double DNA helix for immediate and lasting lifting. PEPFIL™ complex deeply hydrates and promotes collagen.",
+    "benefits": [
+      "Immediate lifting",
+      "UV damage repair",
+      "Anti-pollution",
+      "Plumping effect",
+      "Collagen promotion"
+    ],
+    "price": "€139.00",
+    "volume": "30 ml",
+    "image": "peptilux/LUX004",
+    "target": "Women"
+  },
+  {
+    "id": "LUX005",
+    "name": "Anti-Wrinkle Night Serum - Filler Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "description": "Night serum with dipeptides targeting expression wrinkles. Deep smoothing visible after 4 weeks. ALPHADERM™ complex.",
+    "benefits": [
+      "Filler-like effect",
+      "Deep wrinkle smoothing",
+      "Facial relaxation",
+      "Deep hydration",
+      "Roughness reduction"
+    ],
+    "price": "€99.00",
+    "volume": "30 ml",
+    "image": "peptilux/LUX005",
+    "target": "Women"
+  },
+  {
+    "id": "LUX006",
+    "name": "Anti-Wrinkle Eye Contour - Young Look Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux",
+    "description": "Eye contour with biomimetic endorphinic peptide. TIBOTOH-X™ complex decongests and reduces puffiness, dark circles and wrinkles.",
+    "benefits": [
+      "Brightens eye contour",
+      "Reduces puffiness",
+      "Reduces dark circles",
+      "Plumping",
+      "Microcirculation boost"
+    ],
+    "price": "€59.00",
+    "volume": "15 ml",
+    "image": "peptilux/LUX006",
+    "target": "Women"
+  },
+  {
+    "id": "LUX008",
+    "name": "Night Face Cream - Anti-Aging 3D Effect",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux Men",
+    "description": "Night cream for masculine skin. MENFIL™ complex minimizes roughness and loss of tonicity. 3-weight hyaluronic acid.",
+    "benefits": [
+      "Anti-wrinkle",
+      "Plumping",
+      "UV damage repair",
+      "Roughness reduction",
+      "Sensitive skin friendly"
+    ],
+    "price": "€83.00",
+    "volume": "50 ml",
+    "image": "peptilux/LUX008",
+    "target": "Men"
+  },
+  {
+    "id": "LUX009",
+    "name": "Anti-Wrinkle Night Serum - Filler Effect (Men)",
+    "category": "Skincare",
+    "subcategory": "Anti-Aging",
+    "brand": "Peptilux Men",
+    "description": "Night serum for men with power lift effect. PEPTIMEN™ complex deeply hydrates without greasiness. Results from 4 weeks.",
+    "benefits": [
+      "Power lift effect",
+      "Deep hydration",
+      "Non-greasy",
+      "Expression wrinkle smoothing",
+      "Preventive anti-aging"
+    ],
+    "price": "€99.00",
+    "volume": "30 ml",
+    "image": "peptilux/LUX009",
+    "target": "Men"
+  }
+]

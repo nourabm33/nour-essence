@@ -1,0 +1,489 @@
+[
+  {
+    "id": "U01B",
+    "name": "Sweet Almond Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, 100% natural, cold-pressed sweet almond oil for skin and hair.",
+    "benefits": [
+      "Emollient",
+      "Softening",
+      "Nourishing",
+      "Soothing"
+    ],
+    "price": "€15.90",
+    "volume": "100 ml",
+    "image": "oils/U01B"
+  },
+  {
+    "id": "U02B",
+    "name": "Rosehip Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed rosehip oil. Anti-aging and regenerating properties.",
+    "benefits": [
+      "Nourishing",
+      "Anti-wrinkle",
+      "Anti-stretch mark",
+      "Regenerating"
+    ],
+    "price": "€49.90",
+    "volume": "100 ml",
+    "image": "oils/U02B"
+  },
+  {
+    "id": "U03B",
+    "name": "Macadamia Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed macadamia oil. Nourishing and soothing for skin.",
+    "benefits": [
+      "Nourishing",
+      "Soothing",
+      "Softening",
+      "Antioxidant"
+    ],
+    "price": "€16.90",
+    "volume": "100 ml",
+    "image": "oils/U03B"
+  },
+  {
+    "id": "U04",
+    "name": "Neem Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Cold-pressed oil from Azadirachta indica seeds. Ayurvedic tradition for antibacterial and antiparasitic properties.",
+    "benefits": [
+      "Antibacterial",
+      "Anti-inflammatory",
+      "Antiparasitic",
+      "Antifungal",
+      "Moisturizing",
+      "Anti-aging"
+    ],
+    "price": "€15.00",
+    "volume": "100 ml",
+    "image": "oils/U04"
+  },
+  {
+    "id": "U05B",
+    "name": "Jojoba Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed jojoba oil. Regenerating and antioxidant.",
+    "benefits": [
+      "Regenerating",
+      "Emollient",
+      "Nourishing",
+      "Antioxidant"
+    ],
+    "price": "€33.50",
+    "volume": "100 ml",
+    "image": "oils/U05B"
+  },
+  {
+    "id": "U06B",
+    "name": "Argan Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed argan oil. Rich in vitamin E and antioxidants.",
+    "benefits": [
+      "Nourishing",
+      "Emollient",
+      "Regenerating",
+      "Antioxidant"
+    ],
+    "price": "€54.90",
+    "volume": "100 ml",
+    "image": "oils/U06B"
+  },
+  {
+    "id": "U07B",
+    "name": "Sweet Almond Oil (1L)",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Economy size pure sweet almond oil. Same quality, larger format.",
+    "benefits": [
+      "Emollient",
+      "Softening",
+      "Nourishing",
+      "Soothing"
+    ],
+    "price": "€45.90",
+    "volume": "1000 ml",
+    "image": "oils/U07B"
+  },
+  {
+    "id": "U10B",
+    "name": "Avocado Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed avocado oil. Rich and protective for dry skin.",
+    "benefits": [
+      "Nourishing",
+      "Regenerating",
+      "Softening",
+      "Protective"
+    ],
+    "price": "€18.90",
+    "volume": "100 ml",
+    "image": "oils/U10B"
+  },
+  {
+    "id": "U11B",
+    "name": "Grape Seed Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure grape seed oil. Lightweight with antioxidant properties.",
+    "benefits": [
+      "Antioxidant",
+      "Moisturizing",
+      "Smoothing"
+    ],
+    "price": "€22.90",
+    "volume": "100 ml",
+    "image": "oils/U11B"
+  },
+  {
+    "id": "U12",
+    "name": "Refined Cotton Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Extracted from Gossypium herbaceum seeds. Rich in fatty acids and vitamin E. Fluid, nourishes without greasing.",
+    "benefits": [
+      "Nourishing",
+      "Regenerating",
+      "Toning",
+      "Suitable for dry/sensitive/mature skin"
+    ],
+    "price": "€20.50",
+    "volume": "100 ml",
+    "image": "oils/U12"
+  },
+  {
+    "id": "U14B",
+    "name": "Coconut Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed coconut oil for skin and hair.",
+    "benefits": [
+      "Moisturizing",
+      "Regenerating",
+      "Emollient",
+      "Antioxidant"
+    ],
+    "price": "€19.90",
+    "volume": "150 ml",
+    "image": "oils/U14B"
+  },
+  {
+    "id": "U15B",
+    "name": "Shea Butter",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Pure, cold-pressed shea butter. Intensive nourishment and protection.",
+    "benefits": [
+      "Nourishing",
+      "Protective",
+      "Emollient",
+      "Antioxidant"
+    ],
+    "price": "€14.90",
+    "volume": "100 ml",
+    "image": "oils/U15B"
+  },
+  {
+    "id": "U17",
+    "name": "Baobab Oil",
+    "category": "Oils",
+    "subcategory": "Vegetable Oils",
+    "brand": "Chogan",
+    "description": "Cold-pressed from Adansonia digitata seeds. Rich in vitamin E for anti-aging and healing.",
+    "benefits": [
+      "Antioxidant",
+      "Emollient",
+      "Regenerating",
+      "Healing",
+      "Anti-inflammatory",
+      "Anti-stretch mark"
+    ],
+    "price": "€38.00",
+    "volume": "100 ml",
+    "image": "oils/U17"
+  },
+  {
+    "id": "OB",
+    "name": "Wellness Oil (34 Plant Blend)",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Blend of 34 plants for overall wellness. Versatile therapeutic oil.",
+    "benefits": [
+      "Expectorant",
+      "Anti-pain",
+      "Anti-inflammatory",
+      "Relaxant",
+      "Disinfectant",
+      "Energizing"
+    ],
+    "price": "€30.00",
+    "volume": "100 ml",
+    "image": "oils/OB"
+  },
+  {
+    "id": "OS02",
+    "name": "Star Anise Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure star anise essential oil for aromatherapy and wellness.",
+    "benefits": [
+      "Balsamic",
+      "Antispasmodic",
+      "Analgesic",
+      "Anti-inflammatory"
+    ],
+    "price": "€13.00",
+    "volume": "10 ml",
+    "image": "oils/OS02"
+  },
+  {
+    "id": "OS04",
+    "name": "Basil Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure basil essential oil. Stimulating and decongestant.",
+    "benefits": [
+      "Stimulant",
+      "Decongestant",
+      "Antiseptic",
+      "Analgesic",
+      "Mosquito repellent"
+    ],
+    "price": "€20.00",
+    "volume": "10 ml",
+    "image": "oils/OS04"
+  },
+  {
+    "id": "OS07",
+    "name": "Cinnamon Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure cinnamon essential oil. Warm and antiseptic.",
+    "benefits": [
+      "Antiseptic",
+      "Carminative",
+      "Digestive aid"
+    ],
+    "price": "€26.00",
+    "volume": "10 ml",
+    "image": "oils/OS07"
+  },
+  {
+    "id": "OS11",
+    "name": "Geranium Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure geranium essential oil. Balancing and healing.",
+    "benefits": [
+      "Astringent",
+      "Anti-inflammatory",
+      "Antispasmodic",
+      "Toning",
+      "Healing",
+      "Insect repellent"
+    ],
+    "price": "€20.00",
+    "volume": "10 ml",
+    "image": "oils/OS11"
+  },
+  {
+    "id": "OS12",
+    "name": "Bay Laurel Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure bay laurel essential oil. Stimulating and rebalancing.",
+    "benefits": [
+      "Stimulant",
+      "Rebalancing",
+      "Memory enhancement",
+      "Anti-hair loss"
+    ],
+    "price": "€20.00",
+    "volume": "10 ml",
+    "image": "oils/OS12"
+  },
+  {
+    "id": "OS16",
+    "name": "Marjoram Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure marjoram essential oil. Soothing and relaxing.",
+    "benefits": [
+      "Balsamic",
+      "Expectorant",
+      "Anti-pain",
+      "Sedative",
+      "Relaxant"
+    ],
+    "price": "€20.00",
+    "volume": "10 ml",
+    "image": "oils/OS16"
+  },
+  {
+    "id": "OS20",
+    "name": "Nutmeg Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure nutmeg essential oil. Warming and calming.",
+    "benefits": [
+      "Antioxidant",
+      "Anti-rheumatic",
+      "Anti-pain",
+      "Calming",
+      "Relaxant"
+    ],
+    "price": "€17.00",
+    "volume": "10 ml",
+    "image": "oils/OS20"
+  },
+  {
+    "id": "OS21",
+    "name": "Oregano Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure oregano essential oil. Powerful antiseptic.",
+    "benefits": [
+      "Antiseptic",
+      "Toning",
+      "Healing",
+      "Analgesic"
+    ],
+    "price": "€17.00",
+    "volume": "10 ml",
+    "image": "oils/OS21"
+  },
+  {
+    "id": "OS25",
+    "name": "Clary Sage Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure clary sage essential oil. Balancing and purifying.",
+    "benefits": [
+      "Relaxant",
+      "Rebalancing",
+      "Deodorizing",
+      "Healing",
+      "Antimicrobial"
+    ],
+    "price": "€22.00",
+    "volume": "10 ml",
+    "image": "oils/OS25"
+  },
+  {
+    "id": "OS28",
+    "name": "Ylang Ylang Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure ylang ylang essential oil. Sensual and calming.",
+    "benefits": [
+      "Calming",
+      "Aphrodisiac",
+      "Toning",
+      "Astringent"
+    ],
+    "price": "€21.00",
+    "volume": "10 ml",
+    "image": "oils/OS28"
+  },
+  {
+    "id": "OS29",
+    "name": "Birch Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure birch essential oil. Draining and anti-cellulite.",
+    "benefits": [
+      "Anti-inflammatory",
+      "Draining",
+      "Antiseptic",
+      "Healing",
+      "Anti-cellulite"
+    ],
+    "price": "€20.00",
+    "volume": "10 ml",
+    "image": "oils/OS29"
+  },
+  {
+    "id": "OS32",
+    "name": "Clove Leaf Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure clove leaf essential oil. Powerful pain relief.",
+    "benefits": [
+      "Antiseptic",
+      "Antiviral",
+      "Analgesic",
+      "Antispasmodic"
+    ],
+    "price": "€18.00",
+    "volume": "10 ml",
+    "image": "oils/OS32"
+  },
+  {
+    "id": "OS34",
+    "name": "Cumin Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure cumin essential oil. Digestive and calming.",
+    "benefits": [
+      "Digestive",
+      "Carminative",
+      "Antispasmodic",
+      "Circulatory",
+      "Calming"
+    ],
+    "price": "€23.00",
+    "volume": "10 ml",
+    "image": "oils/OS34"
+  },
+  {
+    "id": "OS35",
+    "name": "Tarragon Essential Oil",
+    "category": "Oils",
+    "subcategory": "Essential Oils",
+    "brand": "Chogan",
+    "description": "Pure tarragon essential oil. Digestive and soothing.",
+    "benefits": [
+      "Digestive",
+      "Antispasmodic",
+      "Anti-inflammatory"
+    ],
+    "price": "€20.00",
+    "volume": "10 ml",
+    "image": "oils/OS35"
+  }
+]
