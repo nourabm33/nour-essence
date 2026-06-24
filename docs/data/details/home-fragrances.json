@@ -1,0 +1,227 @@
+[
+  {
+    "id": "COP0001-COP0005",
+    "name": "Flower Garden Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "description": "Floral fragrances with musk and sweet fruits. Rose, jasmine, raspberry, and patchouli create a secret garden atmosphere.",
+    "benefits": [
+      "Long-lasting scent",
+      "Natural wooden sticks",
+      "Elegant Italian design",
+      "No flame needed"
+    ],
+    "price": "€24.00–€350.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L",
+    "image": "home/flower-garden",
+    "fragrance_notes": {
+      "head": [
+        "Lemon",
+        "Pear",
+        "Pink Pepper"
+      ],
+      "heart": [
+        "Rose Taif",
+        "Indian Jasmine",
+        "Blackcurrant",
+        "Raspberry"
+      ],
+      "base": [
+        "Patchouli",
+        "White Musk"
+      ]
+    },
+    "recommended_zone": "Kitchen - Entrance"
+  },
+  {
+    "id": "COP0006-COP0010",
+    "name": "Fruity Blend Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "description": "Enveloping oriental-inspired fragrance. Perfect balance of sweetness and intensity with cherry, tonka bean, and vanilla.",
+    "benefits": [
+      "Long-lasting scent",
+      "Natural wooden sticks",
+      "Elegant Italian design",
+      "No flame needed"
+    ],
+    "price": "€24.00–€350.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L",
+    "image": "home/fruity-blend",
+    "fragrance_notes": {
+      "head": [
+        "Black Cherry",
+        "Cognac"
+      ],
+      "heart": [
+        "Cherry Syrup",
+        "Jasmine",
+        "Turkish Rose"
+      ],
+      "base": [
+        "Musk",
+        "Tonka Bean",
+        "Vanilla"
+      ]
+    },
+    "recommended_zone": "Living Room"
+  },
+  {
+    "id": "COP0011-COP0015",
+    "name": "Mediterranean Pomegranate Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "description": "Decisive yet delicate. Juicy pomegranate with rose and blackcurrant. A sensory journey through the Mediterranean.",
+    "benefits": [
+      "Long-lasting scent",
+      "Natural wooden sticks",
+      "Elegant Italian design",
+      "No flame needed"
+    ],
+    "price": "€24.00–€350.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L",
+    "image": "home/mediterranean-pomegranate",
+    "fragrance_notes": {
+      "head": [
+        "Blackcurrant"
+      ],
+      "heart": [
+        "Rose",
+        "Pomegranate"
+      ],
+      "base": [
+        "White Musk"
+      ]
+    },
+    "recommended_zone": "Entrance - Living Room"
+  },
+  {
+    "id": "COP0016-COP0020",
+    "name": "Bacchus Symphonies Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "description": "Fruity and heady. Captivating blackcurrant and strawberry with vanilla, caramel, and smoky undertones.",
+    "benefits": [
+      "Long-lasting scent",
+      "Natural wooden sticks",
+      "Elegant Italian design",
+      "No flame needed"
+    ],
+    "price": "€24.00–€350.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L",
+    "image": "home/bacchus-symphonies",
+    "fragrance_notes": {
+      "head": [
+        "Blackcurrant",
+        "Strawberry",
+        "Grape"
+      ],
+      "heart": [
+        "Peach",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Red Fruits",
+        "Raspberry",
+        "Vanilla",
+        "Caramel",
+        "Smoke"
+      ]
+    },
+    "recommended_zone": "Office - Living Room"
+  },
+  {
+    "id": "COP0021-COP0025",
+    "name": "Red Fruit Heart Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "description": "Warm and welcoming with sweet vanilla, caramel, and refreshing orange blossom. Red fruits create a playful, sensual atmosphere.",
+    "benefits": [
+      "Long-lasting scent",
+      "Natural wooden sticks",
+      "Elegant Italian design",
+      "No flame needed"
+    ],
+    "price": "€24.00–€350.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L",
+    "image": "home/red-fruit-heart",
+    "fragrance_notes": {
+      "head": [
+        "Blackcurrant",
+        "Strawberry",
+        "Grapefruit"
+      ],
+      "heart": [
+        "Peach",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Vanilla",
+        "Caramel",
+        "Smoke",
+        "Red Fruits",
+        "Raspberry"
+      ]
+    },
+    "recommended_zone": "Entrance - Living Room"
+  },
+  {
+    "id": "COP0026-COP0030",
+    "name": "Magnolia Bouquet Reed Diffuser",
+    "category": "Home Fragrances",
+    "subcategory": "Reed Diffusers",
+    "brand": "Cooperativa Profumieri",
+    "description": "Elegant magnolia with pear, apple, and lemon. Spring magic atmosphere with sandalwood and amber warmth.",
+    "benefits": [
+      "Long-lasting scent",
+      "Natural wooden sticks",
+      "Elegant Italian design",
+      "No flame needed"
+    ],
+    "price": "€24.00–€350.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L",
+    "image": "home/magnolia-bouquet",
+    "fragrance_notes": {
+      "head": [
+        "Pear",
+        "Apple",
+        "Lemon"
+      ],
+      "heart": [
+        "Aquatic Notes",
+        "Rose",
+        "Magnolia",
+        "Jasmine",
+        "Orange Blossom"
+      ],
+      "base": [
+        "Amber",
+        "Sandalwood",
+        "Cedarwood",
+        "Vetiver"
+      ]
+    },
+    "recommended_zone": "Kitchen - Bathroom"
+  },
+  {
+    "id": "COPAC001-COPAC005",
+    "name": "Replacement Reed Sticks",
+    "category": "Home Fragrances",
+    "subcategory": "Accessories",
+    "brand": "Cooperativa Profumieri",
+    "description": "Natural wooden replacement sticks for reed diffusers. Available for all bottle sizes.",
+    "benefits": [
+      "Natural wood",
+      "Optimal absorption",
+      "Easy replacement"
+    ],
+    "price": "€2.50–€15.00",
+    "volume": "100ml / 200ml / 500ml / 1.5L / 3L formats",
+    "image": "home/accessories"
+  }
+]

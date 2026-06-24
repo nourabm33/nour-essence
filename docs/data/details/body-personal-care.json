@@ -1,0 +1,191 @@
+[
+  {
+    "id": "BS08",
+    "name": "Body Wash - Citrus & Patchouli",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "description": "Revitalising scented body wash with citrus and patchouli notes.",
+    "benefits": [
+      "Revitalising",
+      "Fragrant",
+      "Gentle cleansing"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/BS08"
+  },
+  {
+    "id": "BS09",
+    "name": "Body Wash - Vanilla & Ginger",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "description": "Tonifying scented body wash with warm vanilla and ginger.",
+    "benefits": [
+      "Tonifying",
+      "Warming",
+      "Gentle cleansing"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/BS09"
+  },
+  {
+    "id": "BS10",
+    "name": "Body Wash - Amber & Coriander",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "description": "Relaxing scented body wash with amber and coriander.",
+    "benefits": [
+      "Relaxing",
+      "Soothing",
+      "Gentle cleansing"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/BS10"
+  },
+  {
+    "id": "BS11",
+    "name": "Body Wash - Myrrh",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "description": "Purifying body wash with myrrh for deep cleansing.",
+    "benefits": [
+      "Purifying",
+      "Deep cleansing",
+      "Aromatic"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/BS11"
+  },
+  {
+    "id": "BS12",
+    "name": "Body Wash - Coffee & Pink Pepper",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "description": "Energising body wash with coffee and pink pepper for morning boost.",
+    "benefits": [
+      "Energising",
+      "Stimulating",
+      "Invigorating"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/BS12"
+  },
+  {
+    "id": "BS13",
+    "name": "Body Wash - Amber & Argan",
+    "category": "Body & Personal Care",
+    "subcategory": "Body Wash",
+    "brand": "Aurodhea",
+    "description": "Regenerating body wash with amber and argan oil.",
+    "benefits": [
+      "Regenerating",
+      "Nourishing",
+      "Aromatic"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/BS13"
+  },
+  {
+    "id": "AL02B",
+    "name": "Moisturising Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "description": "With camomile, marigold, mallow, shea oil, and oat. Moisturising and elasticising.",
+    "benefits": [
+      "Moisturising",
+      "Elasticising",
+      "Gentle"
+    ],
+    "price": "€12.90",
+    "volume": "250 ml",
+    "image": "bodycare/AL02B"
+  },
+  {
+    "id": "AV01B",
+    "name": "Ice Effect Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "description": "With aloe vera, horse chestnut, and menthol. Cooling and refreshing.",
+    "benefits": [
+      "Refreshing",
+      "Anti-fatigue",
+      "Cooling"
+    ],
+    "price": "€17.90",
+    "volume": "250 ml",
+    "image": "bodycare/AV01B"
+  },
+  {
+    "id": "BV01B",
+    "name": "Regenerating Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "description": "With aloe vera, silk proteins, apple extract, and snail slime.",
+    "benefits": [
+      "Regenerating",
+      "Velvety skin",
+      "Silky texture"
+    ],
+    "price": "€13.90",
+    "volume": "250 ml",
+    "image": "bodycare/BV01B"
+  },
+  {
+    "id": "LA01B",
+    "name": "Donkey Milk Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "description": "With shea oil, macadamia, vitamin E, aloe vera, and donkey milk. For sensitive skin.",
+    "benefits": [
+      "Nourishing",
+      "Revitalizing",
+      "Sensitive skin safe"
+    ],
+    "price": "€19.90",
+    "volume": "250 ml",
+    "image": "bodycare/LA01B"
+  },
+  {
+    "id": "NM02B",
+    "name": "Neem Oil Shower Gel",
+    "category": "Body & Personal Care",
+    "subcategory": "Shower Gel",
+    "brand": "Aurodhea",
+    "description": "With silk proteins, aloe vera, and neem oil. Purifying and antibacterial.",
+    "benefits": [
+      "Purifying",
+      "Antibacterial",
+      "Protective"
+    ],
+    "volume": "250 ml",
+    "image": "bodycare/NM02B"
+  },
+  {
+    "id": "BB01B",
+    "name": "Baby Bubble Bath",
+    "category": "Body & Personal Care",
+    "subcategory": "Baby Care",
+    "brand": "Aurodhea",
+    "description": "Gentle baby bath with oat, lady's mantle, purple coneflower, and aloe vera.",
+    "benefits": [
+      "Ultra-gentle",
+      "Baby-safe",
+      "Soothing"
+    ],
+    "image": "bodycare/BB01B"
+  }
+]

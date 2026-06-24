@@ -1,0 +1,134 @@
+[
+  {
+    "id": "skincare",
+    "name": "Skincare",
+    "description": "Advanced anti-aging with peptide complexes",
+    "product_count": 8,
+    "subcategories": [
+      "Anti-Aging"
+    ],
+    "brands": [
+      "Peptilux",
+      "Peptilux Men"
+    ],
+    "price_range": "€59–€139",
+    "thumbnail": "categories/skincare",
+    "scene_position": [
+      0,
+      0,
+      0
+    ],
+    "accent_color": "#C8A96B"
+  },
+  {
+    "id": "oils",
+    "name": "Oils",
+    "description": "Pure, cold-pressed vegetable & essential oils",
+    "product_count": 28,
+    "subcategories": [
+      "Vegetable Oils",
+      "Essential Oils"
+    ],
+    "brands": [
+      "Chogan"
+    ],
+    "price_range": "€13–€55",
+    "thumbnail": "categories/oils",
+    "scene_position": [
+      2,
+      0,
+      0
+    ],
+    "accent_color": "#D4A853"
+  },
+  {
+    "id": "makeup",
+    "name": "Makeup",
+    "description": "Vegan, cruelty-free makeup collection",
+    "product_count": 34,
+    "subcategories": [
+      "Face",
+      "Eyes",
+      "Lips",
+      "Nails"
+    ],
+    "brands": [
+      "Chogan"
+    ],
+    "price_range": "€8.90–€39.99",
+    "thumbnail": "categories/makeup",
+    "scene_position": [
+      4,
+      0,
+      0
+    ],
+    "accent_color": "#E8A0BF"
+  },
+  {
+    "id": "perfumes",
+    "name": "Perfumes",
+    "description": "100+ fragrances inspired by world-renowned scents",
+    "product_count": 7,
+    "subcategories": [
+      "For Her",
+      "For Him",
+      "Unisex",
+      "Luxury",
+      "Special"
+    ],
+    "brands": [
+      "Olfazeta"
+    ],
+    "price_range": "€11.90–€65",
+    "thumbnail": "categories/perfumes",
+    "scene_position": [
+      6,
+      0,
+      0
+    ],
+    "accent_color": "#2D2D2D"
+  },
+  {
+    "id": "body-personal-care",
+    "name": "Body & Personal Care",
+    "description": "Natural body washes, shower gels & baby care",
+    "product_count": 12,
+    "subcategories": [
+      "Body Wash",
+      "Shower Gel",
+      "Baby Care"
+    ],
+    "brands": [
+      "Aurodhea"
+    ],
+    "price_range": "€3.90–€19.90",
+    "thumbnail": "categories/bodycare",
+    "scene_position": [
+      8,
+      0,
+      0
+    ],
+    "accent_color": "#7FBFB0"
+  },
+  {
+    "id": "home-fragrances",
+    "name": "Home Fragrances",
+    "description": "Italian reed diffusers for every room",
+    "product_count": 7,
+    "subcategories": [
+      "Reed Diffusers",
+      "Accessories"
+    ],
+    "brands": [
+      "Cooperativa Profumieri"
+    ],
+    "price_range": "€2.50–€350",
+    "thumbnail": "categories/home",
+    "scene_position": [
+      10,
+      0,
+      0
+    ],
+    "accent_color": "#8B3A3A"
+  }
+]
