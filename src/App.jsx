@@ -19,11 +19,13 @@ export default function App() {
   const [selectedProduct, setSelectedProduct] = useState(null)
   const [detailData, setDetailData] = useState(null)
 
+  const base = import.meta.env.BASE_URL
+
   useEffect(() => {
     Promise.all([
-      fetch('/data/hero.json').then(r => r.json()),
-      fetch('/data/categories.json').then(r => r.json()),
-      fetch('/data/cards.json').then(r => r.json())
+      fetch(`${base}data/hero.json`).then(r => r.json()),
+      fetch(`${base}data/categories.json`).then(r => r.json()),
+      fetch(`${base}data/cards.json`).then(r => r.json())
     ]).then(([hero, cats, cardData]) => {
       setHeroData(hero)
       setCategories(cats)
@@ -36,7 +38,7 @@ export default function App() {
     setSelectedProduct(product)
     const catId = product.category.toLowerCase().replace(/ & /g, '-').replace(/ /g, '-')
     try {
-      const res = await fetch(`/data/details/${catId}.json`)
+      const res = await fetch(`${base}data/details/${catId}.json`)
       const details = await res.json()
       const detail = details.find(d => d.id === product.id)
       setDetailData(detail || product)
