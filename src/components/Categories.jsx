@@ -1,6 +1,4 @@
-import React, { useRef, useState } from 'react'
-import { Canvas, useFrame } from '@react-three/fiber'
-import { Float, Text, MeshTransmissionMaterial } from '@react-three/drei'
+import React, { useState } from 'react'
 import { motion } from 'framer-motion'
 
 const CATEGORY_LABELS = {
@@ -12,39 +10,10 @@ const CATEGORY_LABELS = {
   'Home Fragrances': "Parfums d'Intérieur"
 }
 
-function CategoryOrb({ color, hovered }) {
-  const ref = useRef()
-  
-  useFrame((state) => {
-    const t = state.clock.elapsedTime
-    ref.current.rotation.y = t * 0.3
-    ref.current.scale.setScalar(hovered ? 1.15 : 1)
-  })
-
-  return (
-    <Float speed={2} rotationIntensity={0.5} floatIntensity={0.5}>
-      <mesh ref={ref}>
-        <icosahedronGeometry args={[0.8, 1]} />
-        <MeshTransmissionMaterial
-          backside
-          samples={4}
-          thickness={0.3}
-          chromaticAberration={0.03}
-          color={color}
-          transmission={0.9}
-          roughness={0.1}
-          distortion={hovered ? 0.4 : 0.1}
-          distortionScale={0.3}
-          temporalDistortion={0.1}
-        />
-      </mesh>
-    </Float>
-  )
-}
-
 function CategoryCard({ category, index }) {
   const [hovered, setHovered] = useState(false)
   const label = CATEGORY_LABELS[category.name] || category.name
+  const color = category.accent_color || '#C8A96B'
 
   return (
     <motion.div
@@ -57,12 +26,38 @@ function CategoryCard({ category, index }) {
       viewport={{ once: true }}
       style={{ perspective: '1000px' }}
     >
-      <div style={{ height: 120, borderRadius: 8, overflow: 'hidden', marginBottom: 16 }}>
-        <Canvas camera={{ position: [0, 0, 3], fov: 40 }} dpr={[1, 1.5]}>
-          <ambientLight intensity={0.5} />
-          <pointLight position={[2, 2, 2]} intensity={0.8} color={category.accent_color} />
-          <CategoryOrb color={category.accent_color} hovered={hovered} />
-        </Canvas>
+      <div style={{ 
+        height: 120, 
+        borderRadius: 8, 
+        overflow: 'hidden', 
+        marginBottom: 16,
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        position: 'relative',
+        background: `radial-gradient(ellipse at center, ${color}15 0%, transparent 70%)`
+      }}>
+        <div style={{
+          width: 60,
+          height: 60,
+          borderRadius: '50%',
+          background: `radial-gradient(circle at 30% 30%, ${color}40, ${color}10)`,
+          border: `1px solid ${color}30`,
+          transform: hovered ? 'scale(1.15) rotate(15deg)' : 'scale(1) rotate(0deg)',
+          transition: 'transform 0.6s cubic-bezier(0.23, 1, 0.32, 1)',
+          boxShadow: hovered 
+            ? `0 0 30px ${color}30, inset 0 0 20px ${color}15` 
+            : `0 0 15px ${color}10`,
+        }} />
+        <div style={{
+          position: 'absolute',
+          width: 80,
+          height: 80,
+          borderRadius: '50%',
+          border: `1px solid ${color}15`,
+          transform: hovered ? 'scale(1.3)' : 'scale(1)',
+          transition: 'transform 0.8s cubic-bezier(0.23, 1, 0.32, 1)',
+        }} />
       </div>
       <span className="count">{category.product_count} products</span>
       <h3>{label}</h3>

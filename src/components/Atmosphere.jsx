@@ -1,6 +1,6 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Sparkles, MeshDistortMaterial, Cloud } from '@react-three/drei'
+import { Sparkles, MeshDistortMaterial } from '@react-three/drei'
 import { motion } from 'framer-motion'
 import * as THREE from 'three'
 
@@ -20,28 +20,25 @@ function FogScene() {
       <fog attach="fog" args={['#0D0D0D', 3, 12]} />
       <ambientLight intensity={0.1} />
       <pointLight ref={lightRef} position={[3, 2, 3]} intensity={0.8} color="#C8A96B" distance={10} />
-      <pointLight position={[-3, 1, -2]} intensity={0.3} color="#8B6B3A" distance={8} />
       
       <group ref={groupRef}>
-        {/* Light rays */}
-        {[...Array(6)].map((_, i) => (
+        {[0, 1, 2, 3].map((i) => (
           <mesh key={i} position={[
-            Math.sin(i * Math.PI / 3) * 3,
+            Math.sin(i * Math.PI / 2) * 3,
             Math.cos(i * 0.7) * 0.5,
-            Math.cos(i * Math.PI / 3) * 3
-          ]} rotation={[0, i * Math.PI / 3, Math.PI / 6]}>
+            Math.cos(i * Math.PI / 2) * 3
+          ]} rotation={[0, i * Math.PI / 2, Math.PI / 6]}>
             <planeGeometry args={[0.05, 4]} />
             <meshBasicMaterial color="#C8A96B" transparent opacity={0.1} side={THREE.DoubleSide} />
           </mesh>
         ))}
         
-        {/* Essence mist */}
         <mesh>
-          <sphereGeometry args={[2, 32, 32]} />
+          <sphereGeometry args={[2, 20, 20]} />
           <MeshDistortMaterial
             color="#1a1510"
             speed={0.8}
-            distort={0.5}
+            distort={0.4}
             radius={1}
             transparent
             opacity={0.3}
@@ -50,18 +47,41 @@ function FogScene() {
         </mesh>
       </group>
       
-      <Sparkles count={60} scale={10} size={1.5} speed={0.15} color="#C8A96B" opacity={0.3} />
+      <Sparkles count={30} scale={10} size={1.2} speed={0.15} color="#C8A96B" opacity={0.3} />
     </>
   )
 }
 
+function useInView(ref, margin = '100px') {
+  const [inView, setInView] = useState(false)
+  useEffect(() => {
+    if (!ref.current) return
+    const obs = new IntersectionObserver(
+      ([entry]) => setInView(entry.isIntersecting),
+      { rootMargin: margin }
+    )
+    obs.observe(ref.current)
+    return () => obs.disconnect()
+  }, [ref, margin])
+  return inView
+}
+
 export default function Atmosphere() {
+  const sectionRef = useRef()
+  const inView = useInView(sectionRef)
+
   return (
-    <section className="atmosphere">
+    <section className="atmosphere" ref={sectionRef}>
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0 }}>
-        <Canvas camera={{ position: [0, 0, 6], fov: 50 }} dpr={[1, 1.5]}>
-          <FogScene />
-        </Canvas>
+        {inView && (
+          <Canvas
+            camera={{ position: [0, 0, 6], fov: 50 }}
+            dpr={[1, 1.2]}
+            gl={{ powerPreference: 'high-performance' }}
+          >
+            <FogScene />
+          </Canvas>
+        )}
       </div>
       
       <motion.div

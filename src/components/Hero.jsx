@@ -1,6 +1,6 @@
-import React, { useRef, useMemo } from 'react'
+import React, { useRef, useEffect, useState, useMemo } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Float, MeshDistortMaterial, MeshTransmissionMaterial, Environment, Sparkles } from '@react-three/drei'
+import { Float, MeshDistortMaterial, Sparkles } from '@react-three/drei'
 import * as THREE from 'three'
 
 function FloatingBottle({ position, scale, color, speed }) {
@@ -16,26 +16,20 @@ function FloatingBottle({ position, scale, color, speed }) {
   return (
     <Float speed={1.5} rotationIntensity={0.3} floatIntensity={0.5}>
       <group ref={ref} position={position} scale={scale}>
-        {/* Bottle body */}
         <mesh>
-          <cylinderGeometry args={[0.3, 0.35, 1.2, 32]} />
-          <MeshTransmissionMaterial
-            backside
-            samples={4}
-            thickness={0.5}
-            chromaticAberration={0.02}
-            anisotropy={0.3}
-            distortion={0.1}
-            distortionScale={0.2}
-            temporalDistortion={0.1}
+          <cylinderGeometry args={[0.3, 0.35, 1.2, 16]} />
+          <meshPhysicalMaterial
             color={color}
-            transmission={0.95}
+            transmission={0.9}
+            thickness={0.5}
             roughness={0.05}
+            ior={1.5}
+            transparent
+            opacity={0.85}
           />
         </mesh>
-        {/* Cap */}
         <mesh position={[0, 0.75, 0]}>
-          <cylinderGeometry args={[0.15, 0.2, 0.3, 16]} />
+          <cylinderGeometry args={[0.15, 0.2, 0.3, 12]} />
           <meshStandardMaterial color="#C8A96B" metalness={0.9} roughness={0.1} />
         </mesh>
       </group>
@@ -54,7 +48,7 @@ function OilDrop({ position, color }) {
 
   return (
     <mesh ref={ref} position={position}>
-      <sphereGeometry args={[0.2, 32, 32]} />
+      <sphereGeometry args={[0.2, 16, 16]} />
       <MeshDistortMaterial
         color={color}
         speed={2}
@@ -64,32 +58,6 @@ function OilDrop({ position, color }) {
         opacity={0.7}
         roughness={0}
         metalness={0.1}
-      />
-    </mesh>
-  )
-}
-
-function CosmicParticles() {
-  return (
-    <Sparkles
-      count={80}
-      scale={12}
-      size={1.5}
-      speed={0.3}
-      color="#C8A96B"
-      opacity={0.4}
-    />
-  )
-}
-
-function MarblePlane() {
-  return (
-    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -2.5, 0]}>
-      <planeGeometry args={[20, 20]} />
-      <meshStandardMaterial
-        color="#1a1a1a"
-        metalness={0.3}
-        roughness={0.4}
       />
     </mesh>
   )
@@ -107,12 +75,12 @@ function MouseParallax({ children }) {
     groupRef.current.rotation.x = target.current.y * 0.08
   })
 
-  React.useEffect(() => {
+  useEffect(() => {
     const handleMouse = (e) => {
       mouse.current.x = (e.clientX / window.innerWidth - 0.5) * 2
       mouse.current.y = (e.clientY / window.innerHeight - 0.5) * 2
     }
-    window.addEventListener('mousemove', handleMouse)
+    window.addEventListener('mousemove', handleMouse, { passive: true })
     return () => window.removeEventListener('mousemove', handleMouse)
   }, [])
 
@@ -122,10 +90,9 @@ function MouseParallax({ children }) {
 function HeroScene() {
   return (
     <>
-      <ambientLight intensity={0.3} />
+      <ambientLight intensity={0.4} />
       <pointLight position={[5, 5, 5]} intensity={0.8} color="#C8A96B" />
       <pointLight position={[-5, 3, -5]} intensity={0.4} color="#FAF8F5" />
-      <spotLight position={[0, 8, 0]} angle={0.4} penumbra={1} intensity={0.6} color="#C8A96B" />
       
       <MouseParallax>
         <FloatingBottle position={[-2, 0.5, 0]} scale={1.2} color="#f8f0e0" speed={0.4} />
@@ -135,32 +102,54 @@ function HeroScene() {
         <OilDrop position={[-1, -0.5, 1]} color="#D4A853" />
         <OilDrop position={[1.5, 0.8, 0.5]} color="#C8A96B" />
         <OilDrop position={[-2.5, 1.2, -0.5]} color="#B8956B" />
-        <OilDrop position={[3, -0.2, 0.8]} color="#E8C878" />
         
-        <CosmicParticles />
-        <MarblePlane />
+        <Sparkles count={40} scale={10} size={1.2} speed={0.3} color="#C8A96B" opacity={0.4} />
+        
+        <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -2.5, 0]}>
+          <planeGeometry args={[20, 20]} />
+          <meshStandardMaterial color="#1a1a1a" metalness={0.3} roughness={0.4} />
+        </mesh>
       </MouseParallax>
       
-      <Environment preset="studio" environmentIntensity={0.3} />
     </>
   )
 }
 
+function useInView(ref, margin = '100px') {
+  const [inView, setInView] = useState(true)
+  useEffect(() => {
+    if (!ref.current) return
+    const obs = new IntersectionObserver(
+      ([entry]) => setInView(entry.isIntersecting),
+      { rootMargin: margin }
+    )
+    obs.observe(ref.current)
+    return () => obs.disconnect()
+  }, [ref, margin])
+  return inView
+}
+
 export default function Hero() {
+  const sectionRef = useRef()
+  const inView = useInView(sectionRef, '200px')
+
   return (
-    <section className="hero" id="hero">
+    <section className="hero" id="hero" ref={sectionRef}>
       <div className="hero-content">
         <h1 className="hero-brand">NOUR ÉSSENCE</h1>
         <p className="hero-tagline">L'art de la beauté naturelle</p>
       </div>
       <div className="hero-canvas">
-        <Canvas
-          camera={{ position: [0, 0, 6], fov: 45 }}
-          dpr={[1, 1.5]}
-          gl={{ antialias: true, alpha: true }}
-        >
-          <HeroScene />
-        </Canvas>
+        {inView && (
+          <Canvas
+            camera={{ position: [0, 0, 6], fov: 45 }}
+            dpr={[1, 1.5]}
+            gl={{ antialias: true, alpha: true, powerPreference: 'high-performance' }}
+            performance={{ min: 0.5 }}
+          >
+            <HeroScene />
+          </Canvas>
+        )}
       </div>
     </section>
   )

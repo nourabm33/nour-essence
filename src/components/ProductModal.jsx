@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Float, MeshTransmissionMaterial, Environment, Sparkles } from '@react-three/drei'
+import { Float, MeshDistortMaterial, Sparkles } from '@react-three/drei'
 import { motion } from 'framer-motion'
 
 function ModalProduct({ color }) {
@@ -14,31 +14,28 @@ function ModalProduct({ color }) {
 
   return (
     <>
-      <ambientLight intensity={0.4} />
+      <ambientLight intensity={0.5} />
       <pointLight position={[3, 3, 3]} intensity={1} color={color || "#C8A96B"} />
       <pointLight position={[-3, -1, 2]} intensity={0.3} color="#FAF8F5" />
       
       <Float speed={1.5} rotationIntensity={0.2} floatIntensity={0.3}>
         <group ref={ref}>
           <mesh>
-            <cylinderGeometry args={[0.4, 0.45, 1.5, 32]} />
-            <MeshTransmissionMaterial
-              backside
-              samples={6}
-              thickness={0.5}
-              chromaticAberration={0.03}
+            <cylinderGeometry args={[0.4, 0.45, 1.5, 16]} />
+            <meshPhysicalMaterial
               color={color || "#f0e8d8"}
-              transmission={0.92}
+              transmission={0.85}
+              thickness={0.5}
               roughness={0.05}
-              distortion={0.1}
-              distortionScale={0.2}
+              ior={1.5}
+              transparent
+              opacity={0.8}
             />
           </mesh>
           <mesh position={[0, 0.95, 0]}>
-            <cylinderGeometry args={[0.2, 0.25, 0.35, 16]} />
+            <cylinderGeometry args={[0.2, 0.25, 0.35, 12]} />
             <meshStandardMaterial color="#C8A96B" metalness={0.95} roughness={0.05} />
           </mesh>
-          {/* Label */}
           <mesh position={[0, -0.1, 0.46]}>
             <planeGeometry args={[0.5, 0.3]} />
             <meshStandardMaterial color="#FAF8F5" metalness={0} roughness={0.8} opacity={0.9} transparent />
@@ -46,8 +43,7 @@ function ModalProduct({ color }) {
         </group>
       </Float>
       
-      <Sparkles count={30} scale={4} size={1} speed={0.2} color="#C8A96B" opacity={0.3} />
-      <Environment preset="studio" environmentIntensity={0.2} />
+      <Sparkles count={20} scale={4} size={1} speed={0.2} color="#C8A96B" opacity={0.3} />
     </>
   )
 }
@@ -83,7 +79,11 @@ export default function ProductModal({ product, onClose }) {
         <button className="modal-close" onClick={onClose}>&times;</button>
         
         <div className="modal-3d">
-          <Canvas camera={{ position: [0, 0, 4], fov: 40 }} dpr={[1, 1.5]}>
+          <Canvas
+            camera={{ position: [0, 0, 4], fov: 40 }}
+            dpr={[1, 1.2]}
+            gl={{ powerPreference: 'high-performance' }}
+          >
             <ModalProduct color={product.accent_color} />
           </Canvas>
         </div>

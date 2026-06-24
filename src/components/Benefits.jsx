@@ -1,8 +1,7 @@
-import React, { useRef } from 'react'
+import React, { useRef, useState, useEffect } from 'react'
 import { Canvas, useFrame } from '@react-three/fiber'
 import { Sparkles, MeshDistortMaterial } from '@react-three/drei'
 import { motion } from 'framer-motion'
-import * as THREE from 'three'
 
 function ParticleFlow() {
   const ref = useRef()
@@ -15,39 +14,19 @@ function ParticleFlow() {
 
   return (
     <group ref={ref}>
-      <Sparkles count={100} scale={8} size={2} speed={0.3} color="#C8A96B" opacity={0.5} />
-      
-      {/* Flowing orb */}
+      <Sparkles count={40} scale={8} size={1.5} speed={0.3} color="#C8A96B" opacity={0.5} />
       <mesh position={[0, 0, 0]}>
-        <sphereGeometry args={[1.5, 64, 64]} />
+        <sphereGeometry args={[1.5, 24, 24]} />
         <MeshDistortMaterial
           color="#C8A96B"
           speed={1.5}
-          distort={0.4}
+          distort={0.3}
           radius={1}
           transparent
           opacity={0.15}
           roughness={0}
         />
       </mesh>
-      
-      {/* Oil drops */}
-      {[...Array(5)].map((_, i) => (
-        <mesh key={i} position={[
-          Math.sin(i * 1.2) * 2,
-          Math.cos(i * 0.8) * 1.5,
-          Math.sin(i * 0.5) * 1
-        ]}>
-          <sphereGeometry args={[0.15, 16, 16]} />
-          <meshStandardMaterial
-            color="#D4A853"
-            transparent
-            opacity={0.6}
-            metalness={0.3}
-            roughness={0}
-          />
-        </mesh>
-      ))}
     </group>
   )
 }
@@ -59,15 +38,39 @@ const benefits = [
   { title: "Luxury Craftsmanship", desc: "Italian artisanal production with meticulous attention to quality" },
 ]
 
+function useInView(ref, margin = '100px') {
+  const [inView, setInView] = useState(false)
+  useEffect(() => {
+    if (!ref.current) return
+    const obs = new IntersectionObserver(
+      ([entry]) => setInView(entry.isIntersecting),
+      { rootMargin: margin }
+    )
+    obs.observe(ref.current)
+    return () => obs.disconnect()
+  }, [ref, margin])
+  return inView
+}
+
 export default function Benefits() {
+  const sectionRef = useRef()
+  const inView = useInView(sectionRef)
+
   return (
-    <section className="section" id="benefits" style={{ position: 'relative' }}>
+    <section className="section" id="benefits" style={{ position: 'relative' }} ref={sectionRef}>
       <div style={{ position: 'absolute', top: 0, left: 0, right: 0, bottom: 0, zIndex: 0 }}>
-        <Canvas camera={{ position: [0, 0, 5], fov: 50 }} dpr={[1, 1.5]}>
-          <ambientLight intensity={0.2} />
-          <pointLight position={[3, 3, 3]} intensity={0.5} color="#C8A96B" />
-          <ParticleFlow />
-        </Canvas>
+        {inView && (
+          <Canvas
+            camera={{ position: [0, 0, 5], fov: 50 }}
+            dpr={[1, 1.2]}
+            gl={{ powerPreference: 'high-performance' }}
+            frameloop="always"
+          >
+            <ambientLight intensity={0.2} />
+            <pointLight position={[3, 3, 3]} intensity={0.5} color="#C8A96B" />
+            <ParticleFlow />
+          </Canvas>
+        )}
       </div>
       
       <div style={{ position: 'relative', zIndex: 10, maxWidth: 900, width: '100%' }}>
