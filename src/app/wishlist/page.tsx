@@ -1,7 +1,6 @@
 import { getAllPerfumes } from "@/lib/queries";
 import { WishlistView } from "@/components/wishlist-view";
 
-export const dynamic = "force-dynamic";
 
 export default async function WishlistPage() {
   const perfumes = await getAllPerfumes();

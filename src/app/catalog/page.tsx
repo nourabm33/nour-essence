@@ -2,7 +2,6 @@ import { Suspense } from "react";
 import { getAllPerfumes } from "@/lib/queries";
 import { CatalogBrowser } from "@/components/catalog-browser";
 
-export const dynamic = "force-dynamic";
 
 export default async function CatalogPage() {
   const perfumes = await getAllPerfumes();
