@@ -1,7 +1,6 @@
 import { getAllPerfumes } from "@/lib/queries";
 import { CompareView } from "@/components/compare-view";
 
-export const dynamic = "force-dynamic";
 
 export default async function ComparePage() {
   const perfumes = await getAllPerfumes();

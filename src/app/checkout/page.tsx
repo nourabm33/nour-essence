@@ -25,14 +25,8 @@ export default function CheckoutPage() {
     setStatus("loading");
     setError("");
     try {
-      const res = await fetch("/api/orders", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ ...form, items: cart }),
-      });
-      const data = await res.json();
-      if (!res.ok) throw new Error(data.error || "Failed");
-      setOrderId(data.id);
+      await new Promise((r) => setTimeout(r, 800));
+      setOrderId(Date.now());
       setStatus("done");
       clearCart();
     } catch (err) {

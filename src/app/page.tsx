@@ -4,7 +4,6 @@ import { ProductGrid } from "@/components/product-grid";
 import { LeafMark } from "@/components/logo";
 import { HeroReveal } from "@/components/hero-reveal";
 
-export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const [featured, all] = await Promise.all([getFeatured(), getAllPerfumes()]);

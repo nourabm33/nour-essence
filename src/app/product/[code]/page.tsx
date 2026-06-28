@@ -1,14 +1,17 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { getPerfumeByCode, getRelated } from "@/lib/queries";
+import { getPerfumeByCode, getRelated, getAllPerfumes } from "@/lib/queries";
 import { ProductPurchase } from "@/components/product-purchase";
 import { ProductGrid } from "@/components/product-grid";
 import { ProductImage } from "@/components/product-image";
 import { LeafMark } from "@/components/logo";
 import { COLLECTION_LABELS, GENDER_LABELS } from "@/lib/types";
 
-export const dynamic = "force-dynamic";
+export async function generateStaticParams() {
+  const perfumes = await getAllPerfumes();
+  return perfumes.map((p) => ({ code: p.code }));
+}
 
 export async function generateMetadata({
   params,
